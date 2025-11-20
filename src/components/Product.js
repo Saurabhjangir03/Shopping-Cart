@@ -33,7 +33,7 @@ return (
       {       
       
         cart.some((p) => {
-          return p.id == post.id
+          return p.id === post.id
         }) ? (<button
       className="uppercase text-xs  py-1 px-3 font-semibold border-2 rounded-full border-gray-600 text-gray-600 "
         onClick={removefromcart}

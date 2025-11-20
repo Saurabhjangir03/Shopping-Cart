@@ -3,9 +3,9 @@ import {Route, Routes} from "react-router-dom";
 import { Home } from "./Pages/Home";
 import { Cart } from "./Pages/Cart";
 // import 'react-toastify/dist/ReactToastify.css';
-import { Toaster, toast } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 import { useSelector} from "react-redux";
-import React, { useState } from 'react'
+import React  from 'react'
 
 
 const App = () => {

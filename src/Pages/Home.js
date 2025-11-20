@@ -18,7 +18,8 @@ export const Home = ({count,setcount}) => {
   }
   useEffect(() =>{
    fetchproduts();
-  } ,[])
+     // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[] )
   return (
     <div className='w-full'>
      <div>
